@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #686de0;
+  background-color: #cfb076;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -16,21 +16,38 @@ body {
   margin: 0;
   padding: 20px;
 }
+.img{
+  background-image: url(https://th.bing.com/th/id/OIP.-jI-USmLktmDxG2lQawuQwAAAA?rs=1&pid=ImgDetMain);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px; 
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 800px;
+  height: 390px;
+  position: relative;
+
+}
 
 .container {
-  background-color: #fff;
+   
+  background-color: #ffffffad;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   padding: 50px 20px;
   text-align: center;
   max-width: 100%;
   width: 800px;
+  position: absolute;
 }
 
 h3 {
   margin: 0;
-  opacity: 0.5;
   letter-spacing: 2px;
+  color: #3a7c53;
+
+ 
 }
 
 .joke {
@@ -42,7 +59,7 @@ h3 {
 }
 
 .btn {
-  background-color: #9f68e0;
+  background-color: #3a7c53;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -52,8 +69,10 @@ h3 {
   cursor: pointer;
 }
 
+
 .btn:active {
   transform: scale(0.98);
+  background-color: #686de0;
 }
 
 .btn:focus {
