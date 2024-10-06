@@ -1,2 +1,2 @@
 ![B](https://github.com/Mowdat-Rida/Dads-joke/blob/main/before%20output.png)
-![A]()
+![A](https://github.com/Mowdat-Rida/Dads-joke/blob/main/After%20output.png)
